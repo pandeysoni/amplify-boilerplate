@@ -1,0 +1,40 @@
+@import "~typeface-rubik";
+@import "~antd/dist/antd.min.css";
+@import "~tailwindcss/dist/base.css";
+@import "~tailwindcss/dist/components.css";
+@import "~tailwindcss/dist/utilities.css";
+
+body {
+  font-family: 'Rubik', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-weight: 300;
+  color: black;
+}
+
+// Ant overrides caused due to Tailwind css
+.ant-btn {
+  display: flex;
+  align-items: center;
+  border-radius: 0.25em;
+  height: auto;
+  padding: 0.35em 1em 0.45em;
+}
+
+.ant-table-cell {
+  display: table-cell;
+  vertical-align: middle !important;
+}
+
+.ant-pagination-item, .ant-pagination-item-link {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  border-radius: 0.45em !important;
+}
+
+.ant-select-selector {
+  border-radius: 0.45em !important;
+}
+
+.ant-modal-confirm-btns {
+  display: flex;
+}
