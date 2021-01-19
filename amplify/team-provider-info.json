@@ -10,6 +10,11 @@
       "StackName": "amplify-cloudorkavideos-prod-223255",
       "StackId": "arn:aws:cloudformation:us-west-2:065858725437:stack/amplify-cloudorkavideos-prod-223255/2b1baf20-5a20-11eb-b357-06e2d110ed53",
       "AmplifyAppId": "d2tybciv4bi3bk"
+    },
+    "categories": {
+      "auth": {
+        "cloudorkavideos8ec07d09": {}
+      }
     }
   }
 }
